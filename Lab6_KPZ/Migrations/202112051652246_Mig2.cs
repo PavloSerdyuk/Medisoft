@@ -1,0 +1,16 @@
+﻿namespace Lab6_KPZ.Migrations
+{
+    using System;
+    using System.Data.Entity.Migrations;
+    
+    public partial class Mig2 : DbMigration
+    {
+        public override void Up()
+        {
+        }
+        
+        public override void Down()
+        {
+        }
+    }
+}
