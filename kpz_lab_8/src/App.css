@@ -1,0 +1,91 @@
+.wrapper {
+    background: #47C6F1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+}
+
+.recordsTable {
+
+}
+
+.addTableRow {
+
+}
+
+.headerBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 10px 0;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.crudButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.tables {
+    border: 1px solid black;
+    overflow-scrolling: auto;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 20px;
+    background-color: #e8e8e8;
+    min-width: 60%;
+    max-height: 60vh;
+}
+
+th, td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    min-width: 100px;
+    width: 1%;
+}
+
+.but {
+    width: 70px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.increasedTd {
+    width: 25%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.inputField {
+    width: 100px;
+    height: 20px;
+    margin: 10px 10px;
+}
+
+#addForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#addBut {
+    width: 200px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 18px;
+}
