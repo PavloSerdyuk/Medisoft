@@ -51,6 +51,12 @@ namespace Lab7
 
             app.UseAuthorization();
 
+            app.UseCors(corsPolicyBuilder =>
+                corsPolicyBuilder.WithOrigins("http://localhost:3000")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+            );
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
